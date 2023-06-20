@@ -3,14 +3,14 @@ import java.util.Locale;
 
 import exception.*;
 public abstract class Medicine {
-    //Medicine – an abstract class.
-    //Attributes: medicine name, company name, company email,
-    //quantity, quantity (num of box), expirationYear (YYYY ), typeOfMedicine (from enum)
-    //Methods: constructors, getters and setters, toString(),
-    //totalInventory() - an abstract method to calculate the total
-    //inventory for each medicine type (ex: 1 Acamol box has 50
-    //pills, if we have 1000 boxes = total 1000X50),
-    //inStock() – returns true if the quantity > 0 else returns false
+    /*Medicine – an abstract class.
+    Attributes: medicine name, company name, company email,
+    quantity, quantity (num of box), expirationYear (YYYY ), typeOfMedicine (from enum)
+    Methods: constructors, getters and setters, toString(),
+    totalInventory() - an abstract method to calculate the total
+    inventory for each medicine type (ex: 1 Acamol box has 50
+    pills, if we have 1000 boxes = total 1000X50),
+    inStock() – returns true if the quantity > 0 else returns false*/
 
     //Attributes
     private String medicineName;
